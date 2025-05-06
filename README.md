@@ -123,3 +123,7 @@ If you want to update the screenshots, you can run:
     ddev playwright test tests/Customer/Directory/test --update-snapshots
 
 ---
+
+If you run the tests locally, you must add the domain to ```docker-compose.external_links.yaml```.
+
+Otherwise the tests will fail and you receive a 403 forbidden error.

@@ -1,4 +1,5 @@
 services:
   web:
     external_links:
-      - "ddev-router:autodudes-blog.ddev.site"
+      - "ddev-router:example.ddev.site"
+      # add any other external links here which should be available in the web container
